@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate your love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Love Calculator.jpg" alt="">
+        <div class="section">
+            <h1>Find Your Interst in Your CRUSH</h1>
+            <p>Enter the following details</p>
+                <div class="box">
+                    <input id="in1" type="text" onchange="reEnableBtn()" placeholder="Your Name">
+                    <input id="in2" type="text" onchange="reEnableBtn()" placeholder="Crush's Name">
+                    <button id="submit" onclick="clicked()">Submit</button>
+                </div>
+        </div>
+        <div class="result">
+            <p id="percentage"></p>
+            <p id="result"></p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(255, 255, 255) 25%, rgb(255, 0, 0) 100%);
+}
+
+.container img {
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    margin-top: 60px;
+    padding: 12px;
+    border-radius: 30px;
+    height: 43vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.section h1 {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.section p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box input {
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px rgb(59, 58, 58);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: medium;
+    padding: 7px 50px 7px 8px;
+}
+
+::placeholder {
+    color: black;
+    text-align: left;
+}
+
+#submit {
+    background-color: #ff0000;
+    box-shadow: 10px 10px 10px white;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: medium;
+    padding: 7px 65px;
+}
+
+#submit:active{
+    color: rgb(59, 58, 58);
+    box-shadow: 5px 5px 5px rgb(59, 58, 58);
+    transform: translateY(5px) translateX(5px);
+}
+
+.result {
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 0, 0));
+    position: relative;
+    top: -20px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 12px;
+    gap: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 20px;
+    transition: all .8s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+
+}
