@@ -6,9 +6,7 @@ audio[1].src = "audios/joker.mp3";
 audio[2] = new Audio();
 audio[2].src = "audios/puneet.mp3";
 audio[3] = new Audio();
-audio[3].src = "audios/tumko paya hai.mp3";
-audio[4] = new Audio();
-audio[4].src = "audios/pee loon.mp3"; 
+audio[3].src = "audios/pee loon.mp3"; 
 
 function reEnableBtn() {
     document.querySelector(".result").style.top = "-20px";
@@ -53,7 +51,7 @@ function clicked() {
             result.innerHTML = "Samay Lagega... try karte raho.";
         } else {
             result.innerHTML = "Aapke pyaar me gir gayi.....";
-            audio[Math.floor(Math.random() * (4 - 3 + 1) + 3)].play();
+            audio[3].play();
         }
     }
 
